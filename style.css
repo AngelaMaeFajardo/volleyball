@@ -1,0 +1,141 @@
+body{
+	background-image: url("https://th.bing.com/th/id/R.cb952812bb833202a9a28676af37c072?rik=3o%2brVk%2bAXSSZpw&riu=http%3a%2f%2fwww.wallpaperbetter.com%2fwallpaper%2f815%2f161%2f75%2fvenice-beach-los-angeles-california-usa-sunset-volleyball-people-1080P-wallpaper.jpg&ehk=IYZaor60lBPMUzqUmhBo%2bxn0Bc%2fD2K1Te1MuctHPgAs%3d&risl=&pid=ImgRaw&r=0"); 
+	background-repeat: no-repeat;
+	background-color: #cccccc;
+	background-size: 2000px 2500px;
+}
+h1 {
+	color: black;
+	font-size: 300%;
+	text-align: center;
+	font-family: Times New Roman, Serif;
+}
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 50px;
+	width: 20%;
+	height: 20%;
+}
+.cntr{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 30px;
+	width: 20%;
+	height: 20%;
+}
+.center1{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 50px;
+	width: 30%;
+	height: 30%;
+}
+.center2{
+	color: black;
+	font-size: 35px;
+	text-align: center;
+	font-family: Copperplate, Papyrus, Fantasy;
+}
+.center3{
+	color: black;
+	font-size: 35px;
+	text-align: center;
+	font-family: Copperplate, Papyrus, Fantasy;
+}
+.hobbies{
+	font-size: 40px;
+}
+.contacts{
+	font-size: 40px;
+}
+.socmed{
+	font-size: 40px;
+}
+.achievements{
+	font-size: 40px;
+}
+h2{
+	color: yellow;
+	font-size: 250%;
+	font-family: Lucida Console, Monospace;
+}
+table{
+	table-layout: auto;
+	width: 800px;
+}
+tr{
+	background-color: #FFC286;
+	color: black;
+	font-size: 150%;
+	font-family: Courier New, Monospace;
+}
+jv{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	height: 30%;
+}
+h3{
+	color: yellow;
+	font-size: 150%;
+	font-family: Lucida Console, Monospace;
+}
+.navbar{
+    width: 80%;
+	margin: 0 auto;
+}
+header{
+	background: #919191;
+}
+header::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+nav{
+	float: right;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav li{
+	display: inline-block;
+	margin-left: 50px;
+	padding-top: 23px;
+	
+	position: relative;
+}
+nav a{
+	color: #24ffff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+nav a:hover{
+	color: #000;
+
+}
+nav a::before{
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: #52ffff;
+	
+	position: absolute;
+	top: 0;
+	width: 0%;
+	transition: all ease-in-out 250ms;
+}
+nav a:hover::before{
+	width: 100%;
+}
