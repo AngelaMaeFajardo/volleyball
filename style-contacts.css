@@ -1,0 +1,44 @@
+body{
+	background-image: url("https://wallpapercave.com/wp/wp4586808.jpg"); 
+	background-repeat: no-repeat;
+	background-color: #cccccc;
+	background-size: 1920px 2000px;
+}
+h1{
+	color: black;
+	font-size: 100px;
+	text-align: center;
+	font-family: Copperplate, Papyrus, Fantasy;
+}
+label{
+	color: black;
+	font-size: 40px;
+	text-align: center;
+	font-family: Lucida Console, Courier New, Monospace;
+	float: none;
+	width: auto;
+	border: 0 none #FFF;
+	padding-left: 10em;
+}
+textarea{
+	margin: auto;
+	width: 100%;
+	border: 5px purple;
+	padding: 10px;
+}
+#btn_i{
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	font-family: Lucida Console, Courier New, Monospace;
+	display: grid;
+	width: 97px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h2{
+	color: black;
+	font-size: 50px;
+	text-align: center;
+	font-family: Copperplate, Papyrus, Fantasy;
+}
